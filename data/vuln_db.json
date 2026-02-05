@@ -1,0 +1,184 @@
+{
+    "apache http server": {
+        "2.4.41": [
+            {
+                "cve": "CVE-2021-40438",
+                "cvss": 7.5,
+                "description": "mod_proxy: SSRF leading to potential unauthorized requests."
+            },
+            {
+                "cve": "CVE-2021-26690",
+                "cvss": 6.1,
+                "description": "Heap overflow in mod_session."
+            }
+        ],
+        "2.4.49": [
+            {
+                "cve": "CVE-2021-41773",
+                "cvss": 7.5,
+                "description": "Path traversal vulnerability allowing file disclosure."
+            }
+        ],
+        "2.4.50": [
+            {
+                "cve": "CVE-2021-42013",
+                "cvss": 9.8,
+                "description": "Path traversal + remote code execution under some configs."
+            }
+        ]
+    },
+    "nginx": {
+        "1.18.0": [
+            {
+                "cve": "CVE-2021-23017",
+                "cvss": 9.4,
+                "description": "1-byte memory overwrite leading to potential RCE."
+            }
+        ],
+        "1.16.1": [
+            {
+                "cve": "CVE-2020-11724",
+                "cvss": 5.3,
+                "description": "Denial of Service in resolver."
+            }
+        ]
+    },
+    "openssh": {
+        "8.2": [
+            {
+                "cve": "CVE-2020-14145",
+                "cvss": 6.5,
+                "description": "Potential information leak via scp unintended file inclusion."
+            }
+        ],
+        "7.2": [
+            {
+                "cve": "CVE-2016-10009",
+                "cvss": 7.8,
+                "description": "RCE in forwarded ssh-agent."
+            }
+        ]
+    },
+    "openssl": {
+        "1.1.1": [
+            {
+                "cve": "CVE-2022-0778",
+                "cvss": 7.5,
+                "description": "Infinite loop in BN_mod_sqrt leading to DoS."
+            }
+        ],
+        "1.0.2": [
+            {
+                "cve": "CVE-2016-2108",
+                "cvss": 7.4,
+                "description": "Memory corruption during ASN.1 handling."
+            }
+        ]
+    },
+    "mysql": {
+        "5.7": [
+            {
+                "cve": "CVE-2019-3941",
+                "cvss": 7.8,
+                "description": "Improper access control vulnerability."
+            }
+        ],
+        "8.0": [
+            {
+                "cve": "CVE-2021-35604",
+                "cvss": 8.1,
+                "description": "Vulnerability affecting the X Plugin component."
+            }
+        ]
+    },
+    "mariadb": {
+        "10.3": [
+            {
+                "cve": "CVE-2021-46659",
+                "cvss": 8.0,
+                "description": "Buffer overflow in authentication."
+            }
+        ],
+        "10.5": [
+            {
+                "cve": "CVE-2021-3529",
+                "cvss": 7.2,
+                "description": "Privilege escalation via misconfigured auth."
+            }
+        ]
+    },
+    "postgresql": {
+        "12": [
+            {
+                "cve": "CVE-2020-25694",
+                "cvss": 7.1,
+                "description": "Memory disclosure via partition pruning."
+            }
+        ],
+        "13": [
+            {
+                "cve": "CVE-2021-32027",
+                "cvss": 6.5,
+                "description": "Function privilege escalation vulnerability."
+            }
+        ]
+    },
+    "php": {
+        "7.4": [
+            {
+                "cve": "CVE-2020-7069",
+                "cvss": 7.2,
+                "description": "Use-after-free in php-fpm leads to potential RCE."
+            }
+        ],
+        "8.1": [
+            {
+                "cve": "CVE-2021-21703",
+                "cvss": 8.1,
+                "description": "Heap buffer overflow in GD extension."
+            }
+        ]
+    },
+    "python": {
+        "3.8": [
+            {
+                "cve": "CVE-2021-3177",
+                "cvss": 9.8,
+                "description": "Buffer overflow in PyCArg_repr leading to potential RCE."
+            }
+        ],
+        "3.6": [
+            {
+                "cve": "CVE-2019-16056",
+                "cvss": 7.5,
+                "description": "HTTP header injection in urllib."
+            }
+        ]
+    },
+    "samba": {
+        "4.13": [
+            {
+                "cve": "CVE-2020-27840",
+                "cvss": 8.2,
+                "description": "Heap overflow in netlogon leading to possible RCE."
+            }
+        ],
+        "4.7": [
+            {
+                "cve": "CVE-2018-1057",
+                "cvss": 7.5,
+                "description": "LDAP privilege escalation in AD DC."
+            }
+        ]
+    },
+    "vsftpd": {
+        "3.0.3": [
+            {
+                "cve": "CVE-2019-19272",
+                "cvss": 5.5,
+                "description": "DoS via mishandled FTP commands."
+            }
+        ]
+    }
+}
+
